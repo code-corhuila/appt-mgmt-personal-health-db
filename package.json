@@ -1,0 +1,11 @@
+{
+  "name": "appt-mgmt-personal-health-db",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Database bounded context for the Salud Activa personal health domain.",
+  "scripts": {
+    "test": "node tests/db-schema.test.js",
+    "db:up": "docker compose up -d postgres",
+    "db:down": "docker compose down"
+  }
+}
